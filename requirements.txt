@@ -1,0 +1,9 @@
+faster-whisper==1.2.1
+pydub==0.25.1
+torch==2.4.1
+torchvision==0.19.1
+torchaudio==2.4.1
+# Pin setuptools to prevent pkg_resources removal breaking ctranslate2
+# See: https://setuptools.pypa.io/en/latest/pkg_resources.html
+# Note: ctranslate2 will need to update before Nov 30, 2025
+setuptools<81
